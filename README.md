@@ -1,4 +1,4 @@
-# USB_Block_Abstraction
+# USB Block Abstraction
 
 This project implements a Linux kernel module that provides user-space programs direct access to a virtual USB storage device using the Linux block I/O (BIO) abstraction. The module exposes a simple IOCTL interface to perform low-level block reads and writes, similar to utilities like `dd` or `mkfs`.
 
